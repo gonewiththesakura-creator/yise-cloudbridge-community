@@ -1,0 +1,20 @@
+{
+  "candidate": "v2 GPL-3.0-or-later source-only candidate",
+  "date_utc": "2026-10-23",
+  "not_published": true,
+  "application_and_script_files_identical_to_v1": 84,
+  "dependency_versions_and_integrities_unchanged": true,
+  "original_notices_byte_preserved": true,
+  "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "license_matches_original_full_gpl_copy_and_system_gpl3": true,
+  "node_tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "windows_source_assertions_included": 7
+  },
+  "javascript_modules_checked": 40,
+  "frontend_build": "Not rerun for documentation/license-only v2; application/build inputs unchanged. v1 build evidence retained.",
+  "windows_and_real_sui": "Still unverified; no rollout work requested or performed",
+  "scope": "Licensing, documentation and exact local publication candidate only"
+}

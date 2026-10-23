@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>壹色云桥</AssemblyName>
+    <RootNamespace>CloudBridge.Client</RootNamespace>
+    <Product>壹色云桥</Product>
+    <Company>壹色云桥</Company>
+    <Version>2.6.0</Version>
+    <ApplicationIcon>Assets\YiseCloudBridge.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Deterministic>true</Deterministic>
+    <CloudBridgeCoreDirectory Condition="'$(CloudBridgeCoreDirectory)' == ''">$(MSBuildThisFileDirectory)core</CloudBridgeCoreDirectory>
+    <CloudBridgeUpdaterPath Condition="'$(CloudBridgeUpdaterPath)' == ''">$(MSBuildThisFileDirectory)..\updater\bin\$(Configuration)\net10.0\win-x64\publish\CloudBridge.Updater.exe</CloudBridgeUpdaterPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="System.Drawing" />
+    <Using Remove="System.Windows.Forms" />
+    <Compile Remove="tests\**\*.cs" />
+    <PackageReference Include="System.Management" Version="10.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\YiseCloudBridge.ico" />
+    <Resource Include="Assets\YiseCloudBridge.png" />
+    <Content Include="$(CloudBridgeCoreDirectory)\sing-box.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="core\sing-box.exe" />
+    <Content Include="$(CloudBridgeCoreDirectory)\geosite-cn.srs" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="core\geosite-cn.srs" />
+    <Content Include="$(CloudBridgeCoreDirectory)\geoip-cn.srs" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" TargetPath="core\geoip-cn.srs" />
+    <Content Include="PACKAGE_README.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="LICENSE-sing-box.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\third_party\LICENSE-sing-box-upstream.txt" Link="LICENSE-sing-box-upstream.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="..\third_party\COPYING-GPL-3.0.txt" Link="COPYING-GPL-3.0.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="THIRD_PARTY_NOTICES.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="$(CloudBridgeUpdaterPath)" Link="CloudBridge.Updater.exe" TargetPath="CloudBridge.Updater.exe"
+             CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="ValidateWindowsPackageInputs" BeforeTargets="PrepareForBuild" Condition="'$(DesignTimeBuild)' != 'true'">
+    <Error Condition="!Exists('$(MSBuildThisFileDirectory)..\third_party\LICENSE-sing-box-upstream.txt') Or !Exists('$(MSBuildThisFileDirectory)..\third_party\COPYING-GPL-3.0.txt')"
+           Text="Missing upstream sing-box notice or complete GPL license. Restore third_party/LICENSE-sing-box-upstream.txt and third_party/COPYING-GPL-3.0.txt before packaging." />
+    <Error Condition="!Exists('$(CloudBridgeCoreDirectory)\sing-box.exe')"
+           Text="Missing sing-box.exe. This is a source-only snapshot. Supply reviewed core dependencies; see docs/BUILD_WINDOWS.md." />
+    <Error Condition="!Exists('$(CloudBridgeCoreDirectory)\geosite-cn.srs') Or !Exists('$(CloudBridgeCoreDirectory)\geoip-cn.srs')"
+           Text="Missing China routing rule sets. Supply geosite-cn.srs and geoip-cn.srs; see docs/BUILD_WINDOWS.md." />
+    <Error Condition="!Exists('$(CloudBridgeUpdaterPath)')"
+           Text="Missing CloudBridge.Updater.exe. Build the updater first or use scripts/build-windows.ps1; see docs/BUILD_WINDOWS.md." />
+  </Target>
+</Project>

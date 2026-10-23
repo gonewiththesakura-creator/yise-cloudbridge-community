@@ -1,0 +1,16 @@
+[Unit]
+Description=CloudBridge encrypted consistent backup
+After=cloudbridge.service s-ui.service
+
+[Service]
+Type=oneshot
+User={{BACKUP_USER}}
+Group={{BACKUP_GROUP}}
+EnvironmentFile={{DEPLOY_ENV_FILE}}
+ExecStart={{BASH_BIN}} {{CB_APP_DIR}}/deploy/backup-cloudbridge.sh --apply
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths={{CB_BACKUP_DIR}}
+NoNewPrivileges=true
+UMask=0077

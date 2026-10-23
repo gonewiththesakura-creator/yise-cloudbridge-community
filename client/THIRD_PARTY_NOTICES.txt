@@ -1,0 +1,17 @@
+壹色云桥 includes the unmodified sing-box executable.
+
+Component: sing-box 1.13.19 (Windows amd64)
+Project: https://github.com/SagerNet/sing-box
+Source revision: b5ebaa1fc0f2b94256180b95468e73ef53caa27d
+Source archive: https://github.com/SagerNet/sing-box/archive/b5ebaa1fc0f2b94256180b95468e73ef53caa27d.zip
+License: GNU General Public License v3.0 or later; see LICENSE-sing-box.txt
+Binary SHA-256: A4476DD768168A77E249050066BB32774ADDEFCC37DA123978623E7B2819DE28
+
+壹色云桥 is not affiliated with or endorsed by the sing-box project.
+
+China routing rule sets:
+- geosite-cn.srs from https://github.com/SagerNet/sing-geosite
+- geoip-cn.srs from https://github.com/SagerNet/sing-geoip
+License: GNU General Public License v3.0 or later; see LICENSE-sing-box.txt
+These data files are bundled so bypass-mainland mode does not depend on a
+successful GitHub download during first connection.

@@ -1,0 +1,717 @@
+{
+  "candidate": "v2 GPL-3.0-or-later source-only candidate",
+  "source_commit": "e87de9f2f163e60940559ed3680fb5608709fa51",
+  "published": false,
+  "first_party_license": "GPL-3.0-or-later",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 2297,
+      "sha256": "778d6553d790f88dfd34ea411a05a7b102dae71f4d8648070a469d3a6b1af35d",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 592,
+      "sha256": "00b0b393db3f2e5f122752d6b98d64d9a3007dbb242a93cacceb365dfc57b61b",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": ".node-version",
+      "bytes": 8,
+      "sha256": "7e8a2fa94951112b894a3dbe3d05efef5e9263741fa49125f0a70f40fedab4cc",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 56,
+      "sha256": "2ef0dcf3953be46feca9ed32aeca6395f0afc6ef7ec9e61af2d1efbedb1f88ec",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 8,
+      "sha256": "7e8a2fa94951112b894a3dbe3d05efef5e9263741fa49125f0a70f40fedab4cc",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "change_from_v1": "added"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1735,
+      "sha256": "b8298225066127914c207063e2511893691e841a50669e3ca53f13d45ba4d4a7",
+      "change_from_v1": "added"
+    },
+    {
+      "path": "NuGet.Config",
+      "bytes": 217,
+      "sha256": "f545a7e2ea14ac53cdfb91217cae67b8ff14275313f6298f9a3331d205b6c948",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "PUBLICATION_SCOPE.json",
+      "bytes": 5225,
+      "sha256": "caa5565815b64ed34d5fbbc062e4984e9682191e95c67fc2dbb803c13ad855fc",
+      "change_from_v1": "added"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5547,
+      "sha256": "0a4995b447b28a67fa75bf6b9ae77f4596f17aece9d6e47f0acced70b72420bd",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "client/App.xaml",
+      "bytes": 9568,
+      "sha256": "155719b9f2e5ad90ef858c8d70f59ecac2273ed46f9f81bba9f95cafb0338f1e",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/App.xaml.cs",
+      "bytes": 2394,
+      "sha256": "96cacf55a056476ac17d2cec611f7a1ce3e02b4c1355f6ea1556f42a6766327f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/Assets/Generate-BrandIcons.ps1",
+      "bytes": 3015,
+      "sha256": "660e4d00f917c5d91e5e18230d8cd36d7c93665006b7d94e64165912edb53575",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/Assets/YiseCloudBridge.ico",
+      "bytes": 53631,
+      "sha256": "d9ea5e43f512a5bca2f5b978c7254bdfec60af6b7530a26996fd0bc526b88360",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/Assets/YiseCloudBridge.png",
+      "bytes": 27801,
+      "sha256": "cacbd7048b909a25f5e80384d9ddc84e4ae2005d318f4aa37f919f5e0376369f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/Assets/brand.svg",
+      "bytes": 1058,
+      "sha256": "e1ce22aa2cd4ab5efd12037540a619cb02e0d868812301f39567534104f3489c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/ClientConfiguration.cs",
+      "bytes": 4203,
+      "sha256": "e07a088a8c4389f0ca0b3350b2a44aa4677499e0a210999222285b535947c063",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/CloudBridge.Client.csproj",
+      "bytes": 3909,
+      "sha256": "c5372dcba5af4939485613122d15f79ee9f4c8baab8297bbf166c4ad0c32771d",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/ControlApiClient.cs",
+      "bytes": 4452,
+      "sha256": "9cd1dccf2fc10b215e6e4861437d44859268410d915a01dcb27459947af557e8",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/ControlTransport.cs",
+      "bytes": 1678,
+      "sha256": "a64e88c58df0237d70c3b028c00babaaacfc03598a3c67be0c1901f8245a801e",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/DeviceIdentity.cs",
+      "bytes": 6867,
+      "sha256": "7f94af181d3de54c0eda9e7bd58209914bc0d9ac9c178d6e6f8a7de319fca3d0",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/LICENSE-sing-box.txt",
+      "bytes": 791,
+      "sha256": "2013b81a3ee5cc9ad12eb31d6f3ac46fe3a924f4237178802195c725bb792659",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/MainWindow.xaml",
+      "bytes": 30578,
+      "sha256": "e38cffd8ef1e6b97b2e9775a2cc19d9b019b9420ed17115b6d27a50a2a043aaf",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/MainWindow.xaml.cs",
+      "bytes": 37946,
+      "sha256": "9e62b2a6a5da847855a8bce0d7a198611a5dd82895ab84655c6fd993134751df",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/Models.cs",
+      "bytes": 3354,
+      "sha256": "c44e103f3f3bfdcc721406d84bd1503cc103e1f3c4133ebd3164c39caaa4f40f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/MtlsTunnelService.cs",
+      "bytes": 4216,
+      "sha256": "c2dc5e3eaa657465c3cee97d6cff75847ce19cc3c3b5958f1adbb856a0b4024f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/PACKAGE_README.txt",
+      "bytes": 3113,
+      "sha256": "58ebb3bef516ad2300f607640efcb5c41c6cd212aa895fb2d23193114965ec03",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/ProxyService.cs",
+      "bytes": 20379,
+      "sha256": "c7e9fc027c7dcc4264236939a8a5b5c5de68a6e600159ce4cd20016297d70545",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/THIRD_PARTY_NOTICES.txt",
+      "bytes": 894,
+      "sha256": "8aa85f317726571055b9529519800129bfb13a975ba51beb111f786a1648351f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/TrafficChart.cs",
+      "bytes": 3548,
+      "sha256": "1897f22750ca3a3e99944ccedc553f1b438df68d5531f107b2a0129440d3d122",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/TrafficMeterService.cs",
+      "bytes": 4870,
+      "sha256": "b52d6d3c19b48aa42c8dd3dbde74233ae6c74dcdb3ba7d98783798da697fde93",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/TransportIdentity.cs",
+      "bytes": 1429,
+      "sha256": "b905b6a2dde03960e6099132a426e6da455e26622a3b6020a3b974b7d954583f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/UpdatePackageDownloader.cs",
+      "bytes": 7356,
+      "sha256": "c574049c8b965bd5cf0aee9ad1f4cb1268f83f62b2d935e2a8bbd33e4b4324d7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/UpdateService.cs",
+      "bytes": 3436,
+      "sha256": "09f8801c1dc8d5b1a953a71abcd4977c8df0aac00c5065ff9a45b18da171ed83",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/app.manifest",
+      "bytes": 545,
+      "sha256": "4f60b596ceda51321a2c74ce7f631297b0ccd0e68d91b9aa7b5a3d25294d549e",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/settings.example.json",
+      "bytes": 56,
+      "sha256": "3e2feb048041dc1cf9dcdf99efc884959311d3304efdbb17b26b265354b43516",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/tests/CloudBridge.Configuration.Tests.csproj",
+      "bytes": 745,
+      "sha256": "45b6505687ba829de7d0f3a27966a07721fce64f178d7c62bbb966dde3daecbd",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "client/tests/Program.cs",
+      "bytes": 6191,
+      "sha256": "0e703003289182802db78af6d288224b137305d0baa5e878e1578c340d1feaa7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/backup-cloudbridge.sh",
+      "bytes": 2928,
+      "sha256": "0c4abf3ec36b021ef721fb797b8612cf4eb4dfd9e0826ccf396d13b4ccee3f85",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/certbot-reload-cloudbridge.sh",
+      "bytes": 2494,
+      "sha256": "7a969bab2146b1083cdcdaeef2101385a4641d664e24cff3ed963aba873006c2",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/cloudbridge-backup.service",
+      "bytes": 396,
+      "sha256": "a9ef5d999c35b81fffe88d9d12294b2b324b8fee5e49d5d83a0dfdbe75b3c359",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/cloudbridge-backup.timer",
+      "bytes": 184,
+      "sha256": "8a2efad82a6fe3fcc69780432fdf8aaa83d73b4b68c9159aa3326bab9434afea",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/cloudbridge.service",
+      "bytes": 881,
+      "sha256": "9998d6b22c53ba2cd002c606cf0fb520d1eb2c615be5d31fb46498f5f9a50826",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/config.mjs",
+      "bytes": 4915,
+      "sha256": "b642556e862d486982a63781021fb325a26fad4bda17364b37c594b78a1fe5eb",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/configure-mtls-inbound.mjs",
+      "bytes": 2743,
+      "sha256": "e2a19088a958add691a5ae312ab7a0edfe9e6d8b33414435c1ee0189112e2e81",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/deployment.env.example",
+      "bytes": 1620,
+      "sha256": "e1bcf67adeef8a64be3351bb6a017ad0ab21f1dab24d7af6e7d30f0f17212cb2",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/enable-tuic.mjs",
+      "bytes": 4402,
+      "sha256": "e0f91cbf1bdf111718529564b91422ba95940ede21e018ea429ee7594cda08b5",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/generate-secrets.mjs",
+      "bytes": 1390,
+      "sha256": "f6c81e50be98821d982d675494d5a32160575ee0a6c7003dcf993d7a11539159",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/health-check.mjs",
+      "bytes": 1302,
+      "sha256": "878e17b5792102fa7221a9d94c143c8daa92e1be4b4f1c017511412be02e0559",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/health-check.sh",
+      "bytes": 1387,
+      "sha256": "68189f34480818a2b1067df1c786c569cce90d07871fac6b65510553ae2f485a",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/nginx-cloudbridge.conf",
+      "bytes": 2435,
+      "sha256": "128acd5f2e95cc3d831210ab85da98ec43fe432ff922ceaa1055a08d4be6d9dc",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/render-templates.mjs",
+      "bytes": 3545,
+      "sha256": "99485be5e32a6ce86ebaf47a08a97ea9e922d0590ecda4c535061c55ea980087",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/s-ui.service",
+      "bytes": 872,
+      "sha256": "ee637f23f01099122da9c9f9b93628c844605fc375e46a3222015adf6339ad17",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "deploy/shell-common.sh",
+      "bytes": 1144,
+      "sha256": "6e85b7a146f410938e8af90f494bd461719bc6c1f4dda0f7c27b9f675d3ec00c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/BUILD_WEB.md",
+      "bytes": 2363,
+      "sha256": "49cfb4d1fa2011c2de893ecb0b5ebeeebbbe31d760f75b1770ff177ebac4e5c0",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/BUILD_WINDOWS.md",
+      "bytes": 8900,
+      "sha256": "fa7a56f4df977fb27f2ff83b777f84e635c8d9f280a9af9549531cb78a1910dc",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "docs/CHANGES.md",
+      "bytes": 3363,
+      "sha256": "2b4ce7ce0a0d80114097405a686500f133a9b9eb45af6aba82186fbda60b001c",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "docs/EXTERNAL_COMPONENTS.md",
+      "bytes": 3196,
+      "sha256": "e1355b1d9b682e9fffe32fac6cfa3291f5bb48e8b5972e929219e47009fd2969",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/LICENSE_PROVENANCE.md",
+      "bytes": 3492,
+      "sha256": "00882ac8981d35929f535b2aba69bad229f9965f2fc95657d493867bfc4d4184",
+      "change_from_v1": "added"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 2404,
+      "sha256": "1608caaba5bfc09da3b90a1e4c6549dbbe50b31340091024233ad8e394290b7e",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "docs/SECURITY_MODEL.md",
+      "bytes": 1742,
+      "sha256": "60e50b6424fe6f6d8c4c1f1032340351625fc082f7d21ae603f627876c244f0d",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/SELF_HOSTING.md",
+      "bytes": 11580,
+      "sha256": "c379fd4738e8ff8fa4ec55f3d9f14c338e8c30a720f2b717a1e8e679081c6aff",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 4235,
+      "sha256": "b3b21947bb7488cb2936757e0fb2a9babda8cfb17ba61e0c32591c61e83cdc48",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "docs/external-components.json",
+      "bytes": 1509,
+      "sha256": "6e9f26d6fb531749c0dc1ab12d5eb6bb27404cc800686a25ddb2fcd7b9f85f58",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/npm-dependencies.json",
+      "bytes": 24219,
+      "sha256": "b4fd82421ee6b0dc0148841163ee3f801e12733f7e80d57b83c69f99ff4e0e96",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/toolchains.json",
+      "bytes": 1086,
+      "sha256": "9c02139569fb0ba47103457ce21d9107c5c925a676534f440c1d5c193157cf42",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/verification/candidate-v2.json",
+      "bytes": 880,
+      "sha256": "01629fa1e371bd369da0408c19dfe2bd79b918c1445d1b1c182db07fbd00349e",
+      "change_from_v1": "added"
+    },
+    {
+      "path": "docs/verification/node-tests.txt",
+      "bytes": 5791,
+      "sha256": "e953c24a32e4a39890e617b4a271cbcb24a730245eccc0547100b7691fbbce63",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/verification/package-validation.json",
+      "bytes": 2063,
+      "sha256": "d38725b16b35671a3425b22347d89bcf530708fb531904105bb71dc896517653",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "docs/verification/source-check.txt",
+      "bytes": 182,
+      "sha256": "e746fcb2838d6f6b3eaa9b7a4f1dc570bee5b7e17de9e28e8ada332281087b9c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "docs/verification/web-build.txt",
+      "bytes": 399,
+      "sha256": "e1c5bc9d975027fb6ca3887f9e7613de91bed1b34ea0ace708535f271cc6dedf",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "global.json",
+      "bytes": 105,
+      "sha256": "81ae2087dbfb46027fd94748351fb4b1ab24145fbb52544a2822bf128e2e48f1",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "index.html",
+      "bytes": 367,
+      "sha256": "4b25e3eb7eafc4f6be3de7afd9e63c6d7e783391e0f58801feea24f97bf5c629",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 35488,
+      "sha256": "a2eaf93a3cf88c14e4a4f86800bfc8f8ffcec9b1aec3b62ae406fb6ebe5988e0",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "package.json",
+      "bytes": 720,
+      "sha256": "1fac517c14efc02e01a9d523213489c4d465c7982cf9f69166d80e0bce1e16a6",
+      "change_from_v1": "modified"
+    },
+    {
+      "path": "scripts/build-windows.ps1",
+      "bytes": 6053,
+      "sha256": "818511ef3973a0ff750fe6492b8afd92e9b80c0e76ad3d3d6781d74330e376a1",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "scripts/check-source.mjs",
+      "bytes": 1837,
+      "sha256": "9c39a35f27bf86d996f9a2dcc5d6101b033ee9014d176cb8871e243fa7cb01e7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/app.mjs",
+      "bytes": 27933,
+      "sha256": "41be01c049b242861527f9c36aa9f773855ce1d78c8e01690490df44e4fd7b19",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/config.mjs",
+      "bytes": 7089,
+      "sha256": "08f3d2d1c2494b40c8d2c34fb73b139e6532d9f5e3ec99ffdd85072ba99c3520",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/credential-service.mjs",
+      "bytes": 8536,
+      "sha256": "f141ace41dc7391dcb750d063469925d0d73c302c9bfc610a5a338a4eae07705",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/data-plane.mjs",
+      "bytes": 3814,
+      "sha256": "96a06fc061edad5556f35e8f11b3818b266ab8594fab21354e65fc1846e0896d",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/db.mjs",
+      "bytes": 8247,
+      "sha256": "bc896c7a7ab5c98993f3c6cee9cbcc6554dc912e022cf0f5598665270c6c8217",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/device-certificate.mjs",
+      "bytes": 2272,
+      "sha256": "4de7100c01c89d75decf9f6cb28468b68a0dbd79805917fc7f06eb8f5f5e470b",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/http.mjs",
+      "bytes": 2270,
+      "sha256": "2ce84265abfda053406b59e9b8a5dd9783087765a615357546826f53fb26d4cb",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/index.mjs",
+      "bytes": 611,
+      "sha256": "920848743a46f4e2ecc6065d81ef858db62402ed84baf9d1033435ed5fe00157",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/login-limiter.mjs",
+      "bytes": 1003,
+      "sha256": "02ebbcb25673af2251dff7f1ed0a8a309d90c58d46e84f4a1ab01cee9df281a6",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/member-policy.mjs",
+      "bytes": 2048,
+      "sha256": "c4b6dde79e45df9dfd14ce24a9a023fc522cc5962cdc2b93b63a6b64fea959fd",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/proxy-adapter.mjs",
+      "bytes": 8447,
+      "sha256": "77ba1126a58a20ec8556e44093f89b6a217648997a7699669244c485cacf9a18",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/security.mjs",
+      "bytes": 1372,
+      "sha256": "ac7a823ab4a444889ce90a789785fcbe1852519a4f141a63bbd72c5ec86781f1",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/sqlite-backup.mjs",
+      "bytes": 786,
+      "sha256": "012cd017c6318b912620e92eda5951ae6aa7d7d1ce1ee5af55489ced20bce20a",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/traffic-usage.mjs",
+      "bytes": 5555,
+      "sha256": "89f3247419d329f3cf54084994cdb8826faaacbea11d1bcc442a3774b02c72a7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/update-policy.mjs",
+      "bytes": 3673,
+      "sha256": "9fe20f07ba8fd98263117a17852273769c3b015ad3cd02007e3d80e373fed269",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "server/validation.mjs",
+      "bytes": 498,
+      "sha256": "59ea357268a3cf460a016bd5e1afc80fd18a57e2e0c81fba7df426d08597378b",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 30789,
+      "sha256": "ad8c7567bafbf28492c7c352327313959d9be898a4be8bbac160359e48b8b9ff",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/TrafficChart.jsx",
+      "bytes": 8535,
+      "sha256": "f8966aaeeb7dc5f16fdc5c854727783b2583bdae0340e30e3acb3eef8bfbfc36",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/api-client.mjs",
+      "bytes": 1241,
+      "sha256": "aacf14a43991b0599c18c1c1b720eecbf2878145ac2b310a1f2036706ac0e913",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/chart-geometry.mjs",
+      "bytes": 912,
+      "sha256": "79bf9c4d385ec1730b857597bf45a9a2ec653f582e1f20e3b07fe8ab88e15b3c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/formatters.mjs",
+      "bytes": 1299,
+      "sha256": "227bdf10d8366b534842e25a814e0800644a643df7edb8caa6960a49465578fa",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 239,
+      "sha256": "42f500f92d6aef92abb2d458db44df2df09bb751bd806f5a571da76285579cd7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 30078,
+      "sha256": "8eba0bc44adbae3521e4e67531c600a193dfd786d9fff9734743631a8bb80148",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/api.test.mjs",
+      "bytes": 22753,
+      "sha256": "062be818120f18032debf31d7d663788b018134d6d8e27cc32fba5c0e918ec49",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/backup.test.mjs",
+      "bytes": 1209,
+      "sha256": "e98b961c5ed93d346179c23015e3198283feb6eb6f64d196f4babdef35a97305",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/chart-geometry.test.mjs",
+      "bytes": 1120,
+      "sha256": "39b1076ba40fa66b53a6d2e64f02af4f8f359644bcae02f9fcb88a9ddc7b2213",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/client-source.test.mjs",
+      "bytes": 6164,
+      "sha256": "efc987a209ecb3ff7885da20286fb92ec9286362ec162717c1a5bba8e4b1939f",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/data-plane.test.mjs",
+      "bytes": 6746,
+      "sha256": "d225d3e7539ea0312a023a7cd070518c35310f43892d475cce92cd6a241317fc",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/deploy-config.test.mjs",
+      "bytes": 15933,
+      "sha256": "56e1319855844e2b7332ccb99208df3a287a12da4c7823330ec3ba806ad6d6b7",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/frontend-api.test.mjs",
+      "bytes": 3012,
+      "sha256": "5fe9224567da9a9eb02b349306d68511584f2737ee4cd14ad5b95fe8302f945e",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/policy-worker.test.mjs",
+      "bytes": 1786,
+      "sha256": "7c525d933a115ae6d0fa09a924a2fc712d2c96cda85ac1bc2819b60e9f825c6e",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/server-adapter.test.mjs",
+      "bytes": 1785,
+      "sha256": "33856399dae8d6bb0c0fd83665c4adf8535d083f899b9942190f21d9054dc3b2",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/server-config.test.mjs",
+      "bytes": 5724,
+      "sha256": "e420b6aeaeb403ad4f31bac57c36951e155dc799d5933a02866143a3b3364281",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/server-isolation.test.mjs",
+      "bytes": 5165,
+      "sha256": "94dc1af7f990480457a63fd30948931f84047d1d74d1291baab8be73aefb983c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/server-lifecycle.test.mjs",
+      "bytes": 9933,
+      "sha256": "413a84bb5772545d24d20545c2938d4abc792660d6bd3ec1b7adc56b699e5c21",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "tests/traffic-usage.test.mjs",
+      "bytes": 4029,
+      "sha256": "bf4854ddd6730788ce373ee48d8b9bc24acb76b8f7b27c04dae655d2aea1522c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "third_party/COPYING-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "third_party/LICENSE-sing-box-upstream.txt",
+      "bytes": 791,
+      "sha256": "650d5e3b99a446fb38e820fa87a49562e0c79eab868fff58618ac487a58e554c",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "updater/CloudBridge.Updater.csproj",
+      "bytes": 750,
+      "sha256": "b85da99b8152e618f6bff9bcdb65360f23c264daab79691346488d79e14cb2ea",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "updater/Program.cs",
+      "bytes": 5838,
+      "sha256": "958b08f19797f0d23146b6af0783d2d00b240050fe2309a00da6399faaf56d4d",
+      "change_from_v1": "unchanged"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 274,
+      "sha256": "b016681a57a67f6979cc6cae5f53b4beeb797359b70c4c29f3edca4390b76161",
+      "change_from_v1": "unchanged"
+    }
+  ]
+}

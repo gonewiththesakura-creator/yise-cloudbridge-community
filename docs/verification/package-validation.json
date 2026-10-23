@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "node_tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "windows_source_assertions_included": 7
+  },
+  "clean_copy_install": "npm ci --offline --ignore-scripts --no-audit --no-fund with isolated verified local npm cache",
+  "clean_copy_checks": "npm run check; npm test; npm run build",
+  "repeatable_frontend_output": {
+    "scope": "same Linux/Node/npm toolchain, independently copied clean source, fresh node_modules installed from locked cache",
+    "byte_identical": true,
+    "sha256": {
+      "index.html": "7081c830b6d8187c5f05a535776faac4275ddf55dc7f2a5d795449d40217b546",
+      "assets/index-B1Xk9EWK.js": "bc107f69ff128a156839460ac599c31e58b1c9702af17e4d8af0e70e33d2ce90",
+      "assets/index-CyY6mEyt.css": "b7248adf9c7c10c9cffc7a19cf878eadcea44e585d691268bfdbd61f6f479b93"
+    }
+  },
+  "targeted_source_scan": {
+    "source_files": 112,
+    "excluded_generated_directories": [
+      ".cache",
+      ".git",
+      ".qa-data",
+      ".secrets",
+      ".tools",
+      "artifacts",
+      "bin",
+      "data",
+      "dist",
+      "node_modules",
+      "obj"
+    ],
+    "credential_or_runtime_files": 0,
+    "private_production_identifier_matches": 0,
+    "private_key_blocks": 0,
+    "symlinks": 0,
+    "original_notices_and_brand_assets_byte_equal": true,
+    "png_chunks": [
+      "IHDR",
+      "sRGB",
+      "gAMA",
+      "pHYs",
+      "IDAT",
+      "IEND"
+    ],
+    "scope": "Targeted content/filename scan, not a comprehensive secret or licensing audit"
+  },
+  "not_verified": [
+    "C# runtime harness",
+    "PowerShell packaging",
+    "Windows WPF UI/build",
+    "real TPM/TUN/system proxy",
+    "actual S-UI integration",
+    "nginx/systemd target host rollout",
+    "NuGet restore lock graph",
+    "public publication authorization and final redistribution-rights review"
+  ],
+  "license_candidate": "v2 first-party GPL-3.0-or-later selection recorded; not publicly released",
+  "evidence_scope": "Historical phase-one technical verification; v2 changes are recorded separately in candidate-v2.json"
+}

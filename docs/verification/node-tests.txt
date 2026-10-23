@@ -1,0 +1,73 @@
+
+> cloudbridge-console@2.6.0 test
+> node --test tests/*.test.mjs
+
+✔ traffic API requires admin login and filters by an existing member (163.338235ms)
+✔ admin can manage a member lifecycle (105.134897ms)
+✔ 2.4 client receives device-bound TUIC credentials without breaking v1 renewals (106.872529ms)
+✔ admin can publish a mandatory Windows client update policy (106.45171ms)
+✔ device enrollment binds signed credentials to one hardware fingerprint (118.017449ms)
+✔ an unbound device can register again with a fresh activation code (144.513097ms)
+✔ mutations require a valid csrf token (78.000079ms)
+✔ password-only login supports password rotation and enforces complexity (258.482831ms)
+✔ SQLite backup is a consistent standalone database (86.543076ms)
+✔ smooth traffic charts leave missing samples disconnected and never overshoot measured values (1.449699ms)
+✔ [source assertion] API requires injected validated configuration, not a default server (8.710118ms)
+✔ [source assertion] configuration boundary is local, explicit and non-WPF (3.551221ms)
+✔ [source assertion] configuration failure exits before window and startup update work (3.71611ms)
+✔ [source assertion] updater and core inputs are required, never conditionally omitted (1.015863ms)
+✔ [source assertion] Windows script preflights inputs and builds the updater before the client (0.888211ms)
+✔ [source assertion] original license and provenance notice bytes are preserved (2.148112ms)
+✔ [source assertion] behavior harness links production code without device or package dependencies (1.048532ms)
+✔ mTLS gateway requires the enrolled device key and revokes live sessions (2197.924167ms)
+✔ deployment modes default to offline dry-run and reject old implicit mutation modes (1.261805ms)
+✔ inbound and TUIC dry runs never call the API or require tokens (1.492994ms)
+✔ internal VLESS can never be made public by helper input (0.720898ms)
+✔ TUIC has no production host or certificate fallback and validates every endpoint (3.284168ms)
+✔ status never saves and exposes no unrelated inbound secrets (0.585654ms)
+✔ explicit internal apply with a local fixture retains users and is idempotent (1.27197ms)
+✔ explicit TUIC apply with a local fixture creates TLS then inbound without accounts (0.581979ms)
+✔ TUIC updates preserve unrelated fields and existing inbound users (0.707879ms)
+✔ conflicting types and duplicate managed names fail before any save (0.618224ms)
+✔ S-UI API rejects unsafe endpoints before calling fetch (0.734208ms)
+✔ S-UI API refuses redirects and redacts error bodies (0.726277ms)
+✔ rendered templates contain operator paths, hardening and safe canonical proxy headers (16.067255ms)
+✔ nginx HTTPS 443 authority omits default port; 8443 keeps it (1.356508ms)
+✔ template rendering rejects configuration injection and unsafe upstreams (1.190728ms)
+✔ health response validation is read-only and uses only injected fixtures (0.601708ms)
+✔ secret generator creates valid local application secrets, never S-UI credentials (0.67543ms)
+✔ shell helpers parse correctly and default to no-network, no-write plans (81.231871ms)
+✔ deployment source parameterizes hosts and contains no firewall/SSH automation (20.680405ms)
+✔ internal apply refuses success when the API silently ignores an edit (0.793518ms)
+✔ TUIC verifies effective client-auth and TLS binding rather than merely object IDs (0.617813ms)
+✔ renewal certificate validator separately rejects a wrong hostname without installing anything (82.748016ms)
+✔ application environment example passes strict server configuration without usable credentials (1.242075ms)
+✔ console requests keep same-origin credentials and send CSRF on PUT (5.750712ms)
+✔ console session state is isolated and explicitly cleared on logout (1.100431ms)
+✔ console transport rejects off-origin targets without making requests (1.518202ms)
+✔ console errors preserve API messages and handle non-JSON failures (0.933149ms)
+✔ quota formatting preserves existing byte/GB conversions (0.273252ms)
+S-UI policy sync failed: temporary outage
+✔ policy worker retries transient adapter failures and marks the job processed (27.729701ms)
+✔ S-UI adapter rejects a real 307 redirect without forwarding its token even if init requests following (35.11514ms)
+✔ configuration defaults are local and explicit overrides beat an isolated environment (2.638744ms)
+✔ configuration rejects invalid numbers, booleans, secrets and incomplete integrations without exposing secrets (1.007541ms)
+✔ login throttling expires, can be cleared and is instance-local (0.602209ms)
+✔ one member policy preserves status precedence and exact quota/expiry boundaries (0.760548ms)
+✔ client update policy compares versions numerically and validates rollout inputs (1.376908ms)
+✔ S-UI configuration permits loopback HTTP or remote HTTPS but no ambiguous URL components (1.180492ms)
+✔ an app login lockout never contaminates another live app or its database (216.6234ms)
+✔ adapter token and integration disabling are explicit per-app configuration snapshots (104.555006ms)
+✔ publishing an update with PUT requires CSRF and only changes the intended app (162.923068ms)
+✔ non-object JSON input fails with a client error without breaking subsequent requests (85.015219ms)
+✔ HTTP activation → signed renewals → real mTLS → administrative revocation denies renewal and live/new tunnels (2065.963321ms)
+✔ traffic samples preserve an honest baseline and aggregate hourly deltas (7.659443ms)
+✔ member traffic is isolated, missing buckets stay unobserved, and ranges exclude future samples (4.640315ms)
+ℹ tests 60
+ℹ suites 0
+ℹ pass 60
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2388.929253

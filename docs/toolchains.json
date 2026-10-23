@@ -1,0 +1,26 @@
+{
+  "node": {
+    "version": "24.19.0",
+    "npm": "11.9.0",
+    "status": "Actually used for Linux checks and frontend builds"
+  },
+  "dotnet": {
+    "version": "10.0.402",
+    "metadata": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json",
+    "status": "Official metadata checked only; SDK not installed or executed in this Linux review",
+    "windows_x64_files": [
+      {
+        "name": "dotnet-sdk-win-x64.exe",
+        "rid": "win-x64",
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.402/dotnet-sdk-10.0.402-win-x64.exe",
+        "hash": "3ef2fa5feb78298ddf07e09dea065c77f03945e645cbd668afc468b97b1cdcd6f3f4a14cde31c138d5a5bb939ce759f1e8366e85852edbe210c3683313c4fb15"
+      },
+      {
+        "name": "dotnet-sdk-win-x64.zip",
+        "rid": "win-x64",
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.402/dotnet-sdk-10.0.402-win-x64.zip",
+        "hash": "ae4fd528cb7e9f6af6aaf7de36715a69f761f183744f1bb3025d19f5a92447090ec561410e46266c1d10a63781ed6f3de771760bc76c876d87daabc367b898cd"
+      }
+    ]
+  }
+}

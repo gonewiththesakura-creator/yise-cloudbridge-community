@@ -1,0 +1,14 @@
+
+> cloudbridge-console@2.6.0 build
+> vite build
+
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 1808 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.46 kB │ gzip:  0.33 kB
+dist/assets/index-CyY6mEyt.css   25.65 kB │ gzip:  6.63 kB
+dist/assets/index-B1Xk9EWK.js   233.43 kB │ gzip: 73.37 kB
+
+✓ built in 182ms

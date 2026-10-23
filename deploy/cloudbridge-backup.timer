@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily CloudBridge backup
+
+[Timer]
+OnCalendar=*-*-* 04:17:00
+RandomizedDelaySec=20m
+Persistent=true
+Unit=cloudbridge-backup.service
+
+[Install]
+WantedBy=timers.target

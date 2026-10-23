@@ -1,0 +1,30 @@
+Yise CloudBridge / 壹色云桥
+First-party license notice
+SPDX-License-Identifier: GPL-3.0-or-later
+
+The project-authored source code, build/deployment scripts, tests and
+project-authored documentation in this source snapshot are free software:
+you may redistribute and/or modify them under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This software is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License in LICENSE for
+the complete terms. A copy is also available at https://www.gnu.org/licenses/.
+
+This notice does not replace existing copyright holders, copyright notices,
+third-party licenses, or additional terms carried by separately identified
+upstream components. Project naming does not claim authorship of sing-box,
+S-UI, React, .NET or other dependencies. No endorsement by those projects is
+implied, and no third-party trademark rights are granted.
+
+The original client/LICENSE-sing-box.txt and client/THIRD_PARTY_NOTICES.txt
+remain unchanged. Their references to bundled runtime files describe the
+original private distribution; this source-only snapshot does not include
+those executables or rule files. See docs/EXTERNAL_COMPONENTS.md and
+docs/LICENSE_PROVENANCE.md for the scope and provenance of included notices.
+
+Maintenance modifications and this license-candidate preparation are described
+in docs/CHANGES.md, dated 2026-10-23. The original project's provenance is
+recorded in docs/PROVENANCE.md; no public history or external adoption is implied.

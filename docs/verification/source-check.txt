@@ -1,0 +1,5 @@
+
+> cloudbridge-console@2.6.0 check
+> node scripts/check-source.mjs
+
+Syntax checked 40 JavaScript modules; dependency versions, registry sources, integrity fields and JSON validated.
