@@ -57,6 +57,11 @@ components distributed. Existing packaging instructions are not a claim that
 this future distribution/rights review has occurred. No binary packaging or
 production rollout is being performed as part of this candidate preparation.
 
-This is a scope/provenance record, not an independent legal opinion or a claim
-that publication has been authorized. The owner's final repository/file-scope
-approval is still required before any public upload.
+The owner approved publication of this source-only candidate in the
+[community repository](https://github.com/gonewiththesakura-creator/yise-cloudbridge-community),
+and the approved snapshot was published on 2026-10-23. This is a scope/provenance
+record, not an independent legal opinion or copyright/ownership audit.
+
+The original pre-publication scope and hash manifests remain unchanged as
+historical records. See the [README](../README.md) for the initial publication
+commit to which those preparation-time records apply.

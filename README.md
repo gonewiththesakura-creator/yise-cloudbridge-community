@@ -6,9 +6,17 @@ plane. It manages member access and device enrollment around the separately
 maintained sing-box proxy core and S-UI API. It is not a new proxy protocol or a
 replacement implementation of those upstream projects.
 
-This is a **source-only release candidate**, prepared from an existing private
-application. It is not a prebuilt Windows installer and has not yet been publicly
-released. Runtime components and compatibility limits are listed below.
+This is a **source-only public review candidate**, prepared from an existing
+private application and first published on 2026-10-23 in the
+[community repository](https://github.com/gonewiththesakura-creator/yise-cloudbridge-community).
+It is not a prebuilt Windows installer. Runtime components and compatibility
+limits are listed below.
+
+`PUBLICATION_SCOPE.json` and `SOURCE_MANIFEST.json` are historical pre-publication
+records, preserved unchanged. Their status fields describe preparation time, and
+the recorded hashes apply to the approved candidate in the
+[initial publication commit](https://github.com/gonewiththesakura-creator/yise-cloudbridge-community/commit/8b1a109bc0becbdb5e9065009cad76c30b688e88),
+not to subsequent documentation-only corrections.
 
 ## Features
 

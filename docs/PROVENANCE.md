@@ -28,14 +28,19 @@ Private deployment/use before this candidate does not establish public
 open-source adoption, a long public maintenance history, independent community
 review, or enterprise/security certification. No such evidence is asserted here.
 
-This candidate has not been published, pushed to a remote or installed over a
-production system. Final publication requires the owner's separate approval of
-the repository and exact file scope. The source archive contains no private
+With the owner's approval of the repository and exact file scope, this
+source-only candidate was first published on 2026-10-23 in the
+[community repository](https://github.com/gonewiththesakura-creator/yise-cloudbridge-community).
+It has not been installed over a production system as part of this publication.
+The source archive contains no private
 operator handoff, production configuration, Git history, credentials, database,
 installed packages, build output, proxy executable or unpinned rule file.
 Original branding assets remain unchanged; no third-party trademark rights or
 independent redistribution-rights audit is implied.
 
-`SOURCE_MANIFEST.json` gives the exact candidate file inventory and hashes.
-`PUBLICATION_SCOPE.json` identifies the proposed public file set, not permission
-to publish. There is no raw patch carrying removed private deployment values.
+`SOURCE_MANIFEST.json` and `PUBLICATION_SCOPE.json` preserve the original
+pre-publication inventory, hashes and proposed file scope as historical records;
+their preparation-time status is not the current publication status. The
+[README](../README.md) identifies the initial publication commit to which they
+apply, before later documentation-only corrections. There is no raw patch
+carrying removed private deployment values.
